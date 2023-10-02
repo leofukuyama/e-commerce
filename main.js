@@ -14,6 +14,7 @@ class Produto {
 
     adicionar(produto){
         this.ObjArray.push(produto);
+        this.cancelar();
     };
 
     validarCampos(produto){
@@ -41,7 +42,16 @@ class Produto {
     };
 
     cancelar(){
-        alert("Cancelado!")
+        document.getElementById("nameProd").value = "";
+        document.getElementById("valueProd").value = "";
+    };
+
+    editar(){
+
+    };
+
+    excluir(){
+
     };
 };
 
