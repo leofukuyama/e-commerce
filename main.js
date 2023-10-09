@@ -38,7 +38,6 @@ class Produto {
             this.adicionar(prodSalvo);
             this.inserirCampos();
             this.id++;
-            console.log(this.ObjArray);
         };
         
     };
