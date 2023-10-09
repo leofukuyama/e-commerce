@@ -39,7 +39,6 @@ class Produto {
             this.inserirCampos();
             this.id++;
         };
-        
     };
 
     cancelar() {
